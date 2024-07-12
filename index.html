@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant J'la Dalle</title>
+    <link rel="icon" type="image/png" href="2.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+         body{
+            background-image: url(back.AVIF);
+        }
+        .hero {
+            background-size: cover;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #050404;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        .hero button {
+            font-size: 1.5rem;
+        }
+        .menu-item img {
+            width: 100%;
+            height: auto;
+        }
+        .footer {
+            background: rgb(31, 29, 29);
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .footer a {
+            color: black;
+            margin: 0 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Restaurant J'la Dalle</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">À propos de nous</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h1>Bienvenue au Restaurant J'la Dalle</h1>
+            <button class="btn btn-primary">Réserver une table</button>
+        </div>
+    </section>
+   
+    <!-- Menu Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Notre Menu</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card menu-item">
+                    <img src="Épaule d'agneau a la basque.WEBP" class="card-img-top" alt="Epaul">
+                    <div class="card-body">
+                        <h5 class="card-title">Épaule d'agneau a la basque</h5>
+                        <p class="card-text">
+                            * 		1 épaule d'agneau désossée, roulée et ficelée
+                            * 		1 grosse tranche de jambon de Bayonne
+                            * 		2 poivrons rouges
+                            * 		3 oignons jaunes
+                            * 		2 gousses d'ail
+                            * 		1 bocal de piquillos
+                            * 		1 boîte de tomates concassées
+                            * 		1 cuillère à café de piment d'Espelette
+                            * 		5 cuillères à soupe d'huile d'olive
+                            * 		15 cl de vin blanc
+                            * 		Sel
+                            * 		Poivre
+                            </p>
+                        <p class="card-text"><strong>Prix : 12€</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card menu-item">
+                    <img src="Grenadins.JPG" class="card-img-top" alt="Grenadins">
+                    <div class="card-body">
+                        <h5 class="card-title">Grenadin de veau</h5>
+                        <p class="card-text">ngrédients
+                            grenadins de veau du Ségala Toupargel
+                            sauce aux morilles Toupargel
+                            marrons Toupargel
+                            asperges vertes Toupargel
+                            40 g d'échalotes ciselées
+                            </p>
+                        <p class="card-text"><strong>Prix : 15€</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card menu-item">
+                    <img src="Sauce au Canard.JPG" class="card-img-top" alt="Sauce">
+                    <div class="card-body">
+                        <h5 class="card-title">Sauce au Canard</h5>
+                        <p class="card-text">Viandes
+                            • 4 Duck breasts
+                            • 300 ml Duck stock
+                            Fruits et légumes
+                            • 1 Bay leaf
+                            • 1/2 tsp Ginger, ground
+                            • 1 Shallot, small round
+                            Aides culinaires et épices
+                            • 2 Cardamom pods
+                            • 1/2 Cinnamon stick
+                            • 1 tsp Five-spice powder
+                            • 1 Pepper
+                            • 10 Pink peppercorns
+                            • 1 Salt
+                            • 2 Star anise
+                            • 15 g Sugar
+                            Huiles et vinaigres
+                            • 60 ml Vegetable oil
+                            • 15 ml White wine vinegar
+                            Boissons
+                            • 50 ml Orange juice, freshly squeezed
+                            Produits laitiers
+                            • 20 g Butter
+                            Bières, vins et spiritueux
+                            • 15 ml Grand Marnier
+                            </p>
+                        <p class="card-text"><strong>Prix : 18€</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+               <img src="2.png" alt="a propos">
+            </div>
+            <div class="col-md-6 mb-4">
+                <h2>À propos de nous</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet pharetra lorem. Nam venenatis orci in bibendum viverra. Nulla facilisi.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet pharetra lorem. Nam venenatis orci in bibendum viverra. Nulla facilisi.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Contactez-nous</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputName">Nom</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Nom">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputMessage">Message</label>
+                <textarea class="form-control" id="inputMessage" rows="4" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Restaurant J'la Dalle</p>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
